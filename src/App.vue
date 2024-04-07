@@ -3,7 +3,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 
 import Button from 'primevue/button';
-
+import SearchBox from './components/SearchBox.vue'
 </script>
 
 <template>
@@ -21,7 +21,9 @@ import Button from 'primevue/button';
   </header>
 
   <RouterView /> -->
-  <Button>Hi, I am button</Button>
+  <SearchBox />
+
+  <!-- <Button>Hi, I am button</Button> -->
 </template>
 
 <style scoped>
