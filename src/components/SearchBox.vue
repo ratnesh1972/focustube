@@ -1,20 +1,11 @@
 <script setup>
-import {ref} from 'vue';
+import Learning from './LearnBasics.vue';
 
-import IconField from 'primevue/iconfield';
-import InputIcon from 'primevue/inputicon';
-
-// v-model is used on a component to implement two way bindings.
-const value = ref('This is msg');
+// import IconField from 'primevue/iconfield';
+// import InputIcon from 'primevue/inputicon';
 
 </script>
 
 <template>
-    <div>
-        <h1>{{ value }}</h1>
-        <IconField iconPosition="left">
-            <InputIcon class="pi pi-search"> </InputIcon>
-            <InputText v-model="value" placeholder="Search"/>
-        </IconField>
-    </div>
+    <Learning/>
 </template>
