@@ -1,11 +1,17 @@
 <script setup>
-import Learning from './LearnBasics.vue';
+import {ref} from 'vue';
 
-// import IconField from 'primevue/iconfield';
-// import InputIcon from 'primevue/inputicon';
+import InputText from 'primevue/inputtext';
+import InputGroup from 'primevue/inputgroup';
+import Button from 'primevue/button';
 
+const searchInput = ref('');
 </script>
 
 <template>
-    <Learning/>
+    <h1>{{ searchInput }}</h1>
+    <InputGroup>
+        <InputText v-model="searchInput" placeholder="Search" />
+        <Button icon="pi pi-search" />
+    </InputGroup>
 </template>

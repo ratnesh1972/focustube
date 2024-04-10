@@ -4,7 +4,7 @@ import {ref} from 'vue';
 
 const isDisplay = ref(11);
 
-// Conditional Rendering
+// ============== Conditional Rendering ===============
 // Always use v-else-if and v-else immidiatedly after v-if for them
 // to be considered.
 // v-if can be used on temapltes.

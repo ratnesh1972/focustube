@@ -1,4 +1,5 @@
 import 'primevue/resources/themes/aura-light-green/theme.css';
+import 'primeicons/primeicons.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
